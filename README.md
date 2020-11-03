@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## HEROKU
 
-* Ruby version
+Lien: https://agile-hamlet-69342.herokuapp.com/
 
-* System dependencies
 
-* Configuration
+* Etapes pour utiliser l'application en local:
+<code>Bundle install</code>
+<code>rails db:create</code>
+(=> Au cas ou pb de BDD)
+<code>rails db:migrate</code>
+<code>rails db:seed</code>
+Aller sur localhost:3000
 
-* Database creation
+Si pb dans la DBB ou seed:
+<code>rails db:setup</code>
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
